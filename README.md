@@ -1,4 +1,4 @@
-# README - Currency Converter
+# $$$ Currency Converter $$$
 
 ## Descrição
 
