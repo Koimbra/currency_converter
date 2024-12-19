@@ -1,8 +1,8 @@
-# README - Conversor de Moeda
+# README - Currency Converter
 
 ## Descrição
 
-Este é um projeto simples de **conversão de moedas** desenvolvido em **Java**. Ele permite que o usuário converta entre diferentes moedas, como **dólar**, **pesos argentinos**, **reais brasileiros** e **pesos colombianos**. O projeto busca utilizar taxas de câmbio em tempo real através de uma API, permitindo que as conversões sejam realizadas com base em valores atualizados.
+Este é um projeto simples de **conversão de moedas** desenvolvido em **Java**. Ele permite que o usuário converta entre diferentes moedas, como **dólar**, **pesos argentinos**, **reais brasileiros** e **pesos colombianos**. O projeto busca utilizar taxas de câmbio em tempo real através da API Exchange Rate-API, permitindo que as conversões sejam realizadas com base em valores atualizados.
 
 ## Funcionalidades
 
@@ -24,6 +24,7 @@ Este é um projeto simples de **conversão de moedas** desenvolvido em **Java**.
 - **Java**: Linguagem principal utilizada para o desenvolvimento.
 - **API de Câmbio**: Usada para buscar as taxas de conversão atualizadas.
 - **Gson**: Biblioteca para manipulação de dados JSON, que é utilizada para processar a resposta da API.
+- **HttpClient**: Classe para gerenciar comunicação via HTTP.
 
 ## Estrutura do Código
 
@@ -73,14 +74,7 @@ O programa vai solicitar que você insira um valor e, em seguida, fornecerá o r
   
 - **Códigos das Moedas**: As moedas são representadas por seus códigos padrão, como "USD" para dólar, "BRL" para real brasileiro, "ARS" para peso argentino, etc.
 
-## Linguagem do Código
+## Por que está escrito em Inglês?
 
-Embora o código do projeto esteja inteiramente em **inglês**, ele foi escrito dessa forma com o objetivo de treinar a familiaridade com a linguagem utilizada no mercado de trabalho, onde o inglês é predominante. Essa prática é importante para a adaptação a ambientes profissionais e ao aprendizado contínuo no campo de desenvolvimento de software.
+Embora o código do projeto esteja inteiramente em **inglês**, ele foi escrito dessa forma com o objetivo de treinar a familiaridade com a linguagem utilizada no mercado de trabalho, onde o inglês é predominante.
 
-## Contribuições
-
-Sinta-se à vontade para fazer contribuições ao projeto. Se encontrar algum problema ou tiver ideias para melhorias, envie um **pull request** ou crie uma **issue**.
-
-## Licença
-
-Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
